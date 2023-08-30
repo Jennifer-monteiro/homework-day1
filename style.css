@@ -1,0 +1,161 @@
+
+
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    background:white;
+
+}
+
+.logo{
+    font-family: "arial";
+    font-weight:100%;
+    font-size:20px;
+    color:white;
+    text-decoration: none;
+}
+
+
+li a{
+    font-family: "arial";
+    font-weight:100%;
+    font-size:16px;
+    color:white;
+    text-decoration: none;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    padding:30px 10%;
+    background: black;
+    
+}
+.logo{
+    cursor:pointer;
+}
+
+.navbar{
+    list-style:none;
+}
+
+.navbar li{
+    display:inline-block;
+    padding:0px 20px;
+}
+
+ .home{
+    width:100%;
+    height:70vh;
+    background-image: url(./img/theater-image-background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+
+.home .content{
+    max-width:500rem;  /* TEST*/
+}
+
+
+.home .content h1{
+    font-size: 6rem;    /*  FAIL */
+    color: white;
+    padding-top: 12rem;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+section{
+    padding:7rem 25%;
+}
+
+img{
+    float:left;
+    padding-right: 50px;
+}
+.btn{
+    
+    float: right;
+    padding: 10px;
+    font-size: 14px;;
+    color:white;
+    background: rgb(215, 177, 83);
+}
+
+.content2{
+    width: 50%;
+    font-size: 12px;
+    float: left;
+    padding-bottom: 20rem;
+}
+
+footer{
+    position: fixed;
+    bottom:0%;
+    /* background: black;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: white; */
+    
+}
+
+
+
+.footer-block{
+    background-color: black;
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: left;
+    font: bold 10px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+    width:100%;
+    height:25vh;
+
+}
+.footer-main .footer-center{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.footer-center{
+     width: 30%;
+
+}
+.footer-center{
+    width: 35%;
+}
+.footer-center{
+    background-color: black;
+    color: white;
+    font-size:25px;
+    text-align: center;
+    line-height:42px;
+    margin: 10px 15px 15px 100px;
+    vertical-align:middle;
+    
+
+} 
+.footer-block .footer-center{
+    width: 35%
+}
+
+.footer-block .footer-center i{
+    background-color: black;
+    color: white;
+    font-size:10px;
+    border-radius: 50px;
+    text-align: center;
+    
+}
